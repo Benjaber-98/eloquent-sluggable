@@ -17,13 +17,15 @@
             "email": "colin@viebrock.ca"
         }
     ],
-    "repositories": [ {
-        "type": "vcs",
-        "url": "https://github.com/Benjaber-98/slugify"
-    }],
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/Benjaber-98/slugify"
+        }
+    ],
     "require": {
         "php": "^7.2.5",
-        "cocur/slugify": "dev-arabic-support",
+        "cocur/slugify": "dev-master",
         "illuminate/config": "^7.0",
         "illuminate/database": "^7.0",
         "illuminate/support": "^7.0"
